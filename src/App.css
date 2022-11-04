@@ -3,8 +3,8 @@
 }
 
 body {
-  max-width: 1900px;
-  max-height: 1300px;
+  max-width: 100vw;
+  max-height: 75vw;
 }
 
 .header {
@@ -75,8 +75,33 @@ header {
   padding: 10px;
 }
 .main {
+  height: 55vw;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.newCounter {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.ajoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  font-size: 15px;
+}
+
+footer p span {
+  font-weight: 900;
 }
